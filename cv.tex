@@ -1,0 +1,152 @@
+%% Inicio del archivo `template-es.tex'.
+%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[11pt,a4paper,sans]{moderncv}   % opciones posibles incluyen tamaÃ±o de fuente ('10pt', '11pt' and '12pt'), tamaÃ±o de papel ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' y 'landscape') y familia de fuentes ('sans' y 'roman')
+
+% temas de moderncv
+\moderncvstyle{classic}                        % las opciones de estilo son 'casual' (por omision),'classic', 'oldstyle' y 'banking'
+\moderncvcolor{blue}                          % opciones de color 'blue' (por omision), 'orange', 'green', 'red', 'purple', 'grey' y 'black'
+%\renewcommand{\familydefault}{\sfdefault}    % para seleccionar la fuente por omision, use '\sfdefault' para la fuente sans serif, '\rmdefault' para la fuente roman, o cualquier nombre de fuente
+%\nopagenumbers{}                             % elimine el comentario para suprimir la numeracion automatica de las paginas para CVs mayores a una pagina
+
+% codificacion de caracteres
+\usepackage[iso-8859-7]                  % reemplace con su codificacion
+%\usepackage{CJKutf8}                         % si necesita usa CJK para redactar su CV en chino, japones o coreano
+
+% ajustes para los margenes de pagina
+\usepackage[scale=0.75]{geometry}
+\usepackage{verbatim}
+\usepackage{amsmath}
+\usepackage{enumerate}
+%\setlength{\hintscolumnwidth}{3cm}           % si desea cambiar el ando de la columna para las fechas
+
+\firstname{Cristián}
+\familyname{Andrade}
+%\title{T\'itulo del CV (opcional)}                   % dato opcional, elimine la linea si no desea el dato
+\address{Las Lobelias 368, Hualpén}{Concepción, Chile} % dato opcional, elimine la linea si no desea el dato
+\mobile{(+56~9)~864~991~06}                            % dato opcional, elimine la linea si no desea el dato
+%\phone{+2~(345)~678~901}                             % dato opcional, elimine la linea si no desea el dato
+%\fax{+3~(456)~789~012}                               % dato opcional, elimine la linea si no desea el dato
+\email{cristianandrade@udec.cl}                                 % dato opcional, elimine la linea si no desea el dato
+%\homepage{www.johndoe.com}                           % dato opcional, elimine la linea si no desea el dato
+%\extrainfo{informacion adicional}                    % dato opcional, elimine la linea si no desea el dato
+\photo[64pt][0.4pt]{picture}                         % '64pt' es la altura a la que la imagen debe ser ajustada, 0.4pt es grosor del marco que lo contiene (eliga 0pt para eliminar el marco) y 'picture' es el nombre del archivo; dato opcional, elimine la linea si no desea el dato
+
+% para mostrar etiquetas numericas en la bibliografia (por omision no se muestran etiquetas), solo es util si desea incluir citas en en CV
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+
+% bibliografia con varias fuentes
+%\usepackage{multibib}
+%\newcites{book,misc}{{Libros},{Otros}}
+%----------------------------------------------------------------------------------
+%            contenido
+%----------------------------------------------------------------------------------
+\begin{document}
+%\begin{CJK*}{UTF8}{gbsn}                     % para redactar el CV en chino usando CJK
+\maketitle
+
+\section{Datos personales}
+
+\cvitem{Nombre:}{Cristián Alejandro Andrade Mora}
+\cvitem{Rut:}{16.155.889-3}
+\cvitem{Edad:}{27 A\~nos}
+\cvitem{Estado civil:}{Soltero}
+
+\section{Formaci\'on Acad\'emica}
+\cventry{2005--2012}{Ingeniero Civil Informático}{Universidad de Concepción}{}{}{}
+\cventry{1992--2004}{Educación Básica y Media}{Colegio Sagrados Corazones de Concepción}{}{}{}
+
+\section{Memoria de Título}
+\cvitem{t\'itulo}{\emph{Implementación de un Sistema de Re-rankeo para Respuestas a Preguntas $how$-$to$ Extraídas desde Yahoo! Answers}}
+\cvitem{patrocinante}{Dr. John Atkinson}
+\cvitem{descripci\'on}{Dise\~né un prototipo para re-rankear rankings de respuestas asociados a un conjunto de preguntas de procedimiento entregadas por Yahoo! Labs Latin America. El prototipo implementa un modelo basado en Algoritmos Genéticos, Clustering y una representación propuesta de \emph{actor-acción-objeto}.}
+
+
+\section{Cursos}
+
+\cventry{2011}{Habilidades sociales y laborales para el mundo del trabajo}{Udec Capacita, Universidad de Concepción}{}{}{}
+\cventry{2010} {Entorno actual y oportunidades para emprender}{Incubadora Emprendo, Universidad de Concepción}{}{}{}
+
+\cventry{2008}{Programa English Online CFRD (\href{https://dl.dropbox.com/u/7226719/cfrd.pdf}{540 horas})}{CFRD, Universidad de Concepción}{}{}{}
+
+\section{Experiencia}
+
+\cventry{2012}{Alumno ayudante}{Computación Aplicada para Ciencias Políticas}{}{}{}
+
+\section{Habilidades y Conocimientos}
+
+\cvitem{$\bullet$}{Capacidad para elaborar proyectos informáticos, desde la captura de requisitos hasta la implementación y soporte.}
+\cvitem {$\bullet$}{Dominio de lenguajes de programación orientados al objeto, especialmente C++, java y python.}
+\cvitem {$\bullet$}{ Dominio de lenguajes de programación script,  en particular PHP y javascript.}
+\cvitem {$\bullet$}{ Desarrollo de software, especialmente con metodología RUP y XP.}
+\cvitem {$\bullet$}{ Habilidad para modelar, implementar y mantener bases de datos, (MySQL y PostgreSQL).}
+\cvitem {$\bullet$}{ Capacidad para configurar y mantener redes, tanto en ambientes windows como linux.}
+
+\section{Idiomas}
+
+\cventry{}{Inglés escrito y hablado} {nivel: B-2 Intermedio-superior}{}{}{}
+
+\begin{comment}
+
+\section{Experiencia}
+\subsection{Vocacional}
+\cventry{a\~no--a\~no}{t\'itulo del puesto}{Empleador}{Ciudad}{}{Descripci\'on general, no m\'as de 1 \'o 2 l\'ineas.\newline{}%
+Detalle de logros:%
+\begin{itemize}%
+\item Logro 1;
+\item Logro 2, con sub-logros:
+  \begin{itemize}%
+  \item Sub-logro (a);
+  \item Sub-logro (b), con sub-sub-logros (Â¡evite hacer esto!);
+    \begin{itemize}
+    \item Sub-sub-logro i;
+    \item Sub-sub-logro ii;
+    \item Sub-sub-logro iii;
+    \end{itemize}
+  \item Sub-logro (c);
+  \end{itemize}
+\item Logro 3.
+\end{itemize}}
+\cventry{a\~no--a\~no}{t\'itulo del puesto}{Empleador}{Ciudad}{}{Descripci\'on l\'inea 1\newline{}Descripci\'on l\'inea 2}
+\subsection{Miscel\'aneo}
+\cventry{a\~no--a\~no}{t\'itulo del puesto}{Empleador}{Ciudad}{}{Descripci\'on}
+
+\section{Idiomas}
+\cvitemwithcomment{Idioma 1}{nivel}{Comentario}
+\cvitemwithcomment{Idioma 2}{nivel}{Comentario}
+\cvitemwithcomment{Idioma 3}{nivel}{Comentario}
+
+\section{Conocimientos de computaci\'on}
+\cvdoubleitem{categor\'ia 1}{XXX, YYY, ZZZ}{categor\'ia 4}{XXX, YYY, ZZZ}
+\cvdoubleitem{categor\'ia 2}{XXX, YYY, ZZZ}{categor\'ia 5}{XXX, YYY, ZZZ}
+\cvdoubleitem{categor\'ia 3}{XXX, YYY, ZZZ}{categor\'ia 6}{XXX, YYY, ZZZ}
+
+\end{comment}
+
+% Las publicaciones tomadas de un archivo de BibTeX sin usar multibib\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+
+%\nocite{*}
+%\bibliographystyle{plain}
+%\bibliography{publications}                   % 'publications' es el nombre del archivo BibTeX
+
+% Las publicaciones tomadas de un archivo BibTeX usando el paquete multibib
+%\section{Publicaciones}
+%\nocitebook{book1,book2}
+%\bibliographystylebook{plain}
+%\bibliographybook{publications}              % 'publications' es el nombre del archivo BibTeX
+%\nocitemisc{misc1,misc2,misc3}
+%\bibliographystylemisc{plain}
+%\bibliographymisc{publications}              % 'publications' es el nombre del archivo BibTeX
+
+%\clearpage\end{CJK*}                          % si esta redactando su CV en chino usando CJK, \clearpage es requerido por fancyhdr para que funcione correctamente con CJK, aunque esto eliminara la numeracion de pagina al dejar \lastpage como no definido
+\end{document}
+
+
+%% fin del archivo `template-es.tex'.
